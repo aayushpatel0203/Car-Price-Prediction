@@ -1,8 +1,8 @@
 import streamlit as st
+from sklearn.linear_model import LinearRegression
 import pickle
 import pandas as pd
 import numpy as np
-from sklearn.linear_model import LinearRegression
 
 # Load the model and data with error handling
 try:
