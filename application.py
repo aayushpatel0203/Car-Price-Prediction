@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
+from sklearn.linear_model import LinearRegression
 
 # Load the model and data with error handling
 try:
